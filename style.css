@@ -1,0 +1,253 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #edf1f1;
+  margin: 0;
+  padding: 20px;
+  
+}
+.portfolio{
+    display: flex;
+    padding-left: 70px;
+    color: #ccc;
+     
+}
+
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #ffffff; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #070707;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+
+/* Image Styles */
+.image {
+	width: 50%; /* Adjust image width */
+	height: auto; /* Maintain aspect ratio */
+	margin: 20px auto; /* Center image */
+	border-radius: 2px; /* Rounded corners */
+	 
+    
+}
+
+/* Responsive Image */
+@media screen and (max-width: 768px) {
+	.image {
+		width: 90%; /* Adjust for smaller screens */
+	}
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+.btn {
+    border: none; /* Remove borders */
+    color: rgb(2, 0, 0); /* Add a text color */
+    padding: 14px 28px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+    
+  }
+
+  .filter {background-color: #f3ecec;}  
+  .all:hover {background-color: #000300;}
+
+  .all {background-color: #ffffff;}  
+  .all:hover {background-color: #f7eaea;}
+  
+  .design {background-color: #ffffff;}  
+  .design:hover {background: #f7eaea;}
+  
+  .photo {background-color: #ffffff;} 
+  .photo:hover {background: #f7eaea;}
+  
+  .art {background-color: #ffffff;}  
+  .art:hover {background: #f7eaea;}
+
+     
+
+  
+
+  .gallery {
+    display: grid;
+     
+    gap: 20px; /* Space between items */
+    
+    
+}
+
+.item {
+    text-align: center; /* Center text below images */
+}
+
+img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #ccc; /* Optional: border for images */
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow effect */
+}
+
+.caption {
+    margin-top: 10px; /* Space between image and caption */
+    font-size: 14px; /* Adjust font size as needed */
+}
+
+ /* Pagination links */
+ .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+  /* Style the active/current link */
+  .pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .pagination a:hover:not(.active) {background-color: #ddd;} 
+
+
+.image-container {
+    display: flex;
+    gap: 20px; /* Space between images */
+}
+
+.image {
+    width: 300px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #ccc; /* Optional: border for images */
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow effect */
+}
+   
+
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.Photography {width: 95%; background-color: #707070;} 
+.web {width: 80%; background-color:#707070;} 
+.photoshop{width: 80%; background-color:#707070;} 
+.video {width: 60%; background-color: #707070}
+
+.skills:hover {
+    background-color:#9b9898;
+}
+.btn1 {
+    background-color: #707070;;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn1:hover {
+    background-color:#9b9898;
+  }
+  table {
+    border: #707070;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 16px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #918a8a;
+  }
+
+  footer{
+    background: #707070;
+  }
+
+  /* Container for skill bars */
+.con{
+  width: 100%; /* Full width */
+  background-color: #ffffff; /* Grey background */
+}
+
+.O {
+  text-align: right; /* Right-align text */
+  padding-top: 20px; /* Add top padding */
+  padding-bottom: 20px; /* Add bottom padding */
+  color: white; /* White text color */
+  border: #918a8a;
+  font-size: small;
+  
+}
+
+.name{width: 90%; background-color: #ffffff;} 
+.email{width: 90%; background-color:#ffffff;} 
+.message{width: 90%; background-color:#ffffff;} 
+ 
+
+.skills:hover {
+    background-color:#9b9898, #1f1717 
+}
+  .b {
+    border: none; /* Remove borders */
+    color: rgb(245, 235, 235); /* Add a text color */
+    padding: 14px 28px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+ 
+  }
+
+  
+  .b {background-color: #5b5c5c;} /* Green */
+  .b :hover {background-color: #b5bbb5;}
+
+  .f2{
+    color: #f1f1f1;
+    font-size:small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: #312b2b;
+  }
+  .next{
+    display: grid; /* Enable grid layout */
+    height: 100vh; /* Full height of the viewport */
+    place-items: center; /* Center content both horizontally and vertically */
+    background-color: #f0f0f0; /* Optional background color */
+}
+
+  
